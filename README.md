@@ -1,11 +1,8 @@
-# Wealth Management Game
+# Football Salary Statistics and Predictions
 
-- Una cartera con x Euros dependiendo de la dificultad
-  - El objetivo es llegar a 100.000.000 Euros
+Dataset from: https://www.kaggle.com/datasets/ultimus/football-wages-prediction
 
 **Funcionalidades**
-- Poder comprar y vender assets basándome en el precio mas reciente de la API.
-- ML: Hacer clusters de las diferentes inversiones para poder clasificarlas en base al riesgo relativo.
-- Páginas de visualizaciones para cada stock con:
-  - Evolución temporal del precio
-  - etc...
+- Analizar salarios en multitud de ligas y clubes de futbol europeos
+- ML: Hacer clusters, poder predecir el salario de un jugador ficticio en base a su Equipo, posicion, liga y edad.
+
