@@ -32,7 +32,8 @@ layout = html.Div(
 
 @callback(Output("correlation-scatter", "figure"), Input("dropdown", "value"))
 def correlation_scatter(choice):
-    fig = px.scatter_matrix(df.loc[:,["Wage","Apps","Caps",choice]],title="Correlation Scatter")
+    
+    fig = px.scatter_matrix(df_num.loc[:,["Wage","Apps","Caps",choice]],title="Correlation Scatter")
     return fig
 
 @callback(Output("correlation-matrix", "figure"), Input("dropdown", "value"))

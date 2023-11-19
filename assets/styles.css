@@ -1,0 +1,30 @@
+/* assets/styles.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.label-input {
+  margin: 0.5rem 0;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#output-prediction {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+label{
+  margin:0.2rem;
+}
